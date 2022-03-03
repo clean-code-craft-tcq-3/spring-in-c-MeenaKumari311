@@ -1,1 +1,1 @@
-void emailAlerter();
+void emailAlerter(void);
