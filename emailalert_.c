@@ -1,3 +1,3 @@
-void emailAlerter()
+void emailAlerter(*emailAlerter)
 {
 }
