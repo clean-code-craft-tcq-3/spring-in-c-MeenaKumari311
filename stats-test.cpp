@@ -1,8 +1,6 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 #include "emailalert_.c"
-#include "emailalert_.h"
 #include "ledalert_.c"
-#include "ledalert_.h"
 #include "catch.hpp"
 #include "stats.h"
 #include "stats.c"
