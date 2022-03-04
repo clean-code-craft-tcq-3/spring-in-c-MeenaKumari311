@@ -1,9 +1,5 @@
 #include "stats.h"
 
- struct Stats{
- int average,min,max; 
-};
-
 struct Stats compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
  int i;
