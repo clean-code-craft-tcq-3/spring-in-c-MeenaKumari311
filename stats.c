@@ -10,7 +10,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     s.average = 0;
     s.min = 0;
     s.max = 0;
-    for(i=0;i,setlength;i++){
+    for(i=0;i<setlength;i++){
      s.average=s.average+*(numberset+i);
     }
  
