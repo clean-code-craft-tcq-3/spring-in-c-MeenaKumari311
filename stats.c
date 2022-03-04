@@ -17,6 +17,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
       s.max=*(numberset+i);
      }
     }
+    s.average=s.average/setlength;
  
     return s;
 }
