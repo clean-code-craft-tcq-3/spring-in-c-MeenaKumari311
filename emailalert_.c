@@ -1,4 +1,4 @@
-//  // #include "emailalert_.h"
-// void emailAlerter()
-// {
-// }
+#include "emailalert_.h"
+void emailAlerter()
+{
+}
