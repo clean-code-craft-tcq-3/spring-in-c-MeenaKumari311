@@ -1,5 +1,5 @@
 struct Stats{
- int average,min,max; 
+ float average,min,max; 
 };
 struct Stats compute_statistics(const float*, int);
 void emailAlerter(void);
