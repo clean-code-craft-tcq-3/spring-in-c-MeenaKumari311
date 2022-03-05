@@ -1,7 +1,7 @@
 struct Stats{
  float average,min,max; 
 };
-struct Stats compute_statistics(const float*, int);
+struct Stats compute_statistics(float*, int);
 void emailAlerter(void);
 void ledAlerter(void);
     
