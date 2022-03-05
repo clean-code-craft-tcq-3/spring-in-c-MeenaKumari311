@@ -44,7 +44,7 @@ void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stat
  if(computedStats.max>maxThreshold)
  {
      for(i=0;i<2;i++)
-         if(*(*alerters+i)=="emailAlerter")
+         if(alerters)
          {
              emailAlerter();
          }
