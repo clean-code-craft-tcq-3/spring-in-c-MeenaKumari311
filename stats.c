@@ -1,11 +1,20 @@
 #include "stats.h"
-
+#include <math.h>
 struct Stats compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
  int i;
     s.average = 0;
     s.min = *numberset;
     s.max = *numberset;
+    
+    if(numberset[]==NAN)
+        (
+         s.average = NAN;
+    s.min = NAN;
+    s.max = NAN;
+        )
+        else
+        {
     for(i=0;i<setlength;i++){
      s.average=s.average+*(numberset+i);
      if(*(numberset+i)<s.min)
@@ -18,7 +27,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
      }
     }
     s.average=s.average/setlength;
- 
+        }
     return s;
 }
 
