@@ -7,7 +7,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     s.min = *numberset;
     s.max = *numberset;
     
-    if(numberset[]==NAN)
+    if(numberset==NAN)
         (
          s.average = NAN;
     s.min = NAN;
