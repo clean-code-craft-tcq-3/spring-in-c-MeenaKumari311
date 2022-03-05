@@ -7,12 +7,12 @@ struct Stats compute_statistics(float* numberset, int setlength) {
     s.min = *numberset;
     s.max = *numberset;
     
-    if(numberset==NAN)
-        (
+    if(*numberset==NAN)
+    {
          s.average = NAN;
     s.min = NAN;
     s.max = NAN;
-        )
+    }
         else
         {
     for(i=0;i<setlength;i++){
