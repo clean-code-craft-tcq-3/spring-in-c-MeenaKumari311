@@ -19,7 +19,7 @@ struct Stats compute_statistics(float* numberset, int setlength) {
      s.average=s.average+*(numberset+i);
      if(*(numberset+i)<s.min)
      {
-      s.min=*(numberset+i);
+      s.min=*(*numberset+i);
      }
      if(*(numberset+i)>s.max)
      {
