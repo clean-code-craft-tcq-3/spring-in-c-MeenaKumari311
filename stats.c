@@ -1,6 +1,6 @@
 #include "stats.h"
 #include <math.h>
-struct Stats compute_statistics(const float* numberset, int setlength) {
+struct Stats compute_statistics(float* numberset, int setlength) {
     struct Stats s;
  int i;
     s.average = 0;
